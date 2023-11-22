@@ -403,10 +403,10 @@ h6 {
 }
 
 #hero .carousel-content {
-  background: rgba(4, 4, 4, 0.7);
+  background: rgba(4, 4, 4, 0.63);
   padding: 20px;
   color: #fff;
-  border-top: 5px solid #1b5fc1;
+  border-top: 5px solid #1b60c100;
 }
 
 #hero .carousel-content h2 {
@@ -428,7 +428,7 @@ h6 {
   line-height: 1;
   margin: 10px;
   color: #fff;
-  animation-delay: 0.8s;
+  animation-delay: 0.5s;
   border: 2px solid #1b5fc1;
 }
 
@@ -644,6 +644,7 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.103);
 }
 
 .services .icon-box .icon {
@@ -693,7 +694,7 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.253);
 }
 
 .services .iconbox-blue i {
@@ -768,6 +769,55 @@ section {
   fill: #11dbcf;
 }
 
+.about .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -980,6 +1030,7 @@ section {
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  color: #1b5fc1;
 }
 
 .about-us .content h3 {
